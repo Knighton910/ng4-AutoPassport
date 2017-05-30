@@ -1,0 +1,31 @@
+.home-cars > img {
+  /*width: 1200px;
+  height: 400px;*/
+  /*padding-right: 20px;
+  padding-left: 30px;*/
+  background-color: #fff;
+  margin: auto;
+  display: block;
+  border: 5px white solid;
+}
+
+.upTop {
+  margin-bottom: -640px;
+}
+
+.alogo {
+  height: 170px;
+  width: 250px;
+  margin-left: 520px;
+  margin-bottom: 30px;
+}
+
+.q-intro, .q-intro1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-family: 'Pacifico', cursive;
+  /*font-family: 'Shadows Into Light', cursive;*/
+}
