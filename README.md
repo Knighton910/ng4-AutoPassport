@@ -1,5 +1,12 @@
 # AutoPassport
 
+![demopic](src/assets/readme.png)
+
+
+
+--------
+still in progress :construction: 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
 ## Development server
