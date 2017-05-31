@@ -1,8 +1,9 @@
+
 .home-cars > img {
-  /*width: 1200px;
-  height: 400px;*/
-  /*padding-right: 20px;
-  padding-left: 30px;*/
+  width: 1200px;
+  height: 400px;
+  padding-right: 20px;
+  padding-left: 30px;
   background-color: #fff;
   margin: auto;
   display: block;
@@ -27,5 +28,5 @@
   margin-right: 60px;
   margin-left: 60px;
   font-family: 'Pacifico', cursive;
-  /*font-family: 'Shadows Into Light', cursive;*/
+  font-family: 'Shadows Into Light', cursive;
 }
