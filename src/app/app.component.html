@@ -1,13 +1,29 @@
 <img class="upTop" src="../assets/upTop.png"/>
 <img class="alogo" src="../assets/avalogo.png"/>
 
+<md-toolbar color="success">
+  <span class="example-spacer"></span>
+  <button md-button [mdMenuTriggerFor]="appMenu">
+    <md-icon>menu</md-icon>
+    Menu
+  </button>
+</md-toolbar>
 
-<div class="navLinks">
-  <a [routerLink]="['/cover']">Cover Page</a>
-  <a [routerLink]="['/cars']">Cars</a>
-</div>
+
+<md-menu #appMenu="mdMenu">
+  <button md-menu-item>Cars</button>
+  <button md-menu-item>Cover</button>
+</md-menu>
 
 <div>
   <router-outlet></router-outlet>
 </div>
+
+
+
+
+<!--<div class="navLinks">
+  <a [routerLink]="['/cover']">Cover Page</a>
+  <a [routerLink]="['/cars']">Cars</a>
+</div>-->
 

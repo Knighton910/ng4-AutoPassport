@@ -2,6 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {
+  MdButtonModule,
+  MdCardModule,
+  MdMenuModule,
+  MdToolbarModule,
+  MdIconModule
+} from '@angular/material';
 import {
   RouterModule,
   Routes
@@ -26,7 +35,13 @@ import { CarsComponent } from './cars/cars.component';
       { path: '', redirectTo: 'cover', pathMatch: 'full' },
       { path: 'cover', component: CoverpageComponent },
       { path: 'cars', component: CarsComponent }
-    ])
+    ]),
+    BrowserAnimationsModule,
+    MdButtonModule,
+    MdMenuModule,
+    MdCardModule,
+    MdToolbarModule,
+    MdIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

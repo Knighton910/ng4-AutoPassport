@@ -30,3 +30,7 @@
   font-family: 'Pacifico', cursive;
   font-family: 'Shadows Into Light', cursive;
 }
+
+.example-spacer {
+  flex: 1 1 auto;
+}
