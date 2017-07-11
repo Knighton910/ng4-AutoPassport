@@ -5,20 +5,20 @@
   padding-right: 20px;
   padding-left: 30px;
   background-color: #fff;
-  margin: auto;
+  margin:  0 auto;
   display: block;
   border: 5px white solid;
 }
 
 .upTop {
-  margin-bottom: -640px;
+  margin-bottom: -670px;
 }
 
 .alogo {
-  height: 170px;
-  width: 250px;
+  height: 140px;
+  width: 200px;
   margin-left: 520px;
-  margin-bottom: 30px;
+  margin-bottom: -25px;
 }
 
 .q-intro, .q-intro1 {
@@ -33,4 +33,10 @@
 
 .example-spacer {
   flex: 1 1 auto;
+}
+
+.makeshift-nav {
+   color: white;
+   margin-left: 86%;
+   margin-bottom:10px;
 }

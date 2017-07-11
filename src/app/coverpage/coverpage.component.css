@@ -1,0 +1,29 @@
+
+.q-intro, .q-intro1 {
+  color: white;
+  font-size: 22px;
+  font-family: 'Kaushan Script', sans-serif;
+  padding-right: 34px;
+  padding-left: 34px;
+}
+
+.home-cars {
+  margin-left: 40px;
+}
+
+.q-intro {
+  margin-bottom: 15px;
+}
+
+.q-intro1 {
+  margin-bottom: 20px;
+}
+
+.line {
+  border: 9px solid #eb0323;
+}
+
+.footy img {
+  height: 350px;
+  width: 300px;
+}

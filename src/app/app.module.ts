@@ -9,7 +9,8 @@ import {
   MdCardModule,
   MdMenuModule,
   MdToolbarModule,
-  MdIconModule
+  MdIconModule,
+  MdInputModule,
 } from '@angular/material';
 import {
   RouterModule,
@@ -19,14 +20,19 @@ import {
 import { AppComponent } from './app.component';
 import { CoverpageComponent } from './coverpage/coverpage.component';
 import { CarsComponent } from './cars/cars.component';
+import { LeaseComponent } from './lease/lease.component';
+import { CarThumbnailComponent } from './cars/car-thumbnail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CoverpageComponent,
-    CarsComponent
+    CarsComponent,
+    LeaseComponent,
+    CarThumbnailComponent
   ],
+  providers: [],
   imports: [
     BrowserModule,
     FormsModule,
@@ -34,16 +40,17 @@ import { CarsComponent } from './cars/cars.component';
     RouterModule.forRoot([
       { path: '', redirectTo: 'cover', pathMatch: 'full' },
       { path: 'cover', component: CoverpageComponent },
-      { path: 'cars', component: CarsComponent }
+      { path: 'cars', component: CarsComponent },
+      { path: 'lease', component: LeaseComponent}
     ]),
     BrowserAnimationsModule,
     MdButtonModule,
     MdMenuModule,
     MdCardModule,
     MdToolbarModule,
-    MdIconModule
+    MdIconModule,
+    MdInputModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
