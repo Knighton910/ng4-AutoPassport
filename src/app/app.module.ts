@@ -22,7 +22,8 @@ import { CoverpageComponent } from './coverpage/coverpage.component';
 import { CarsComponent } from './cars/cars.component';
 import { LeaseComponent } from './lease/lease.component';
 import { CarThumbnailComponent } from './cars/car-thumbnail.component';
-
+import { CarService } from './car.service';
+import { CarDetailsComponent } from './cars/car-details/car-details.component';
 
 @NgModule({
   declarations: [
@@ -30,18 +31,22 @@ import { CarThumbnailComponent } from './cars/car-thumbnail.component';
     CoverpageComponent,
     CarsComponent,
     LeaseComponent,
-    CarThumbnailComponent
+    CarThumbnailComponent,
+    CarDetailsComponent
   ],
-  providers: [],
+  providers: [
+    CarService
+  ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: 'cover', pathMatch: 'full' },
+      { path: '', redirectTo: 'cars', pathMatch: 'full' },
       { path: 'cover', component: CoverpageComponent },
       { path: 'cars', component: CarsComponent },
-      { path: 'lease', component: LeaseComponent}
+      { path: 'lease', component: LeaseComponent },
+      { path: 'cars/:id', component: CarDetailsComponent }
     ]),
     BrowserAnimationsModule,
     MdButtonModule,

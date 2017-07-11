@@ -1,0 +1,36 @@
+img.autoImg-D {
+  margin-left: 135px;
+}
+
+.autoImg-D {
+  height: 500px;
+  width: 1000px;
+  position: center;
+}
+
+.autoImg-wrapper {
+  width: 1280px;
+  height: 500px;
+  background-color: lightslategray;
+}
+
+.btn {
+  border: none;
+  padding: 15px 15px;
+  color: #fff;
+  background-color: #00B5AD;
+  text-align: center;
+  font-size: 17px;
+}
+
+#name {
+  color: white;
+  font-family: Avenir;
+  font-size: x-large;
+  text-align: center;
+}
+
+#info {
+  color: #fff;
+  font-family: "Arial Black";
+}

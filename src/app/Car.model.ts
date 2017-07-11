@@ -13,3 +13,13 @@ export class Car {
 
   }
 }
+
+export class CarDeets {
+  constructor(
+    public imageUrl: string,
+    public name: string,
+    public info: string,
+    public id: number
+  ) {}
+}
+
