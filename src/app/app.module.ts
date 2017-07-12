@@ -47,6 +47,7 @@ import { CarDetailsComponent } from './cars/car-details/car-details.component';
       { path: 'cars', component: CarsComponent },
       { path: 'lease', component: LeaseComponent },
       { path: 'cars/:id', component: CarDetailsComponent }
+      // { path: 'cars/:id', component: CarDetailsComponent }
     ]),
     BrowserAnimationsModule,
     MdButtonModule,

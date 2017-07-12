@@ -10,7 +10,7 @@ import {Component, Input} from '@angular/core';
       <div class="price">Price: \${{car.price}}</div>
       <div>Top Speed: {{car.topSpeed}}</div>
       <div>MSRP: $\{{car.msrp}}</div>
-      <button class="btn">Lease Me</button>
+      <button class="btn" [routerLink]="['/cars', car.id]">Lease Me</button>
     </div>
   `
 })
