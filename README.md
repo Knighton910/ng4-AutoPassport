@@ -1,13 +1,23 @@
 # AutoPassport
 
-![demopic](src/assets/readme.png)
-
+## Top of CoverPage/About Us Page
+![demopic](src/assets/nubb.png)
+## Bottom of CoverPage/About Us Page
+![demopic](src/assets/nucc.png)
+## Cars Page/ Our Fleet Page
+![demopic](src/assets/nudd.png)
+## Some additional cars from Cars Page/ Our Fleet Page
+![demopic](src/assets/nuff.png)
+## Form Page/Contact Page | Using Angular Material 2
+![demopic](src/assets/nuaa.png)
+## A Sample of Cars Details page | needs updating
+![demopic](src/assets/nuzz.png)
 
 
 --------
 still in progress :construction: 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+This project was generated with [Angular CLI]∏(https://github.com/angular/angular-cli) version 1.0.1.
 
 ## Development server
 

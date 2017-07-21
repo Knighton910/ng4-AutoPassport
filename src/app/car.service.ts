@@ -7,7 +7,11 @@ const CARS = [
     '830.00 /day',
     '185 MPH',
     '180,452',
-    'Testing ... testing 123',
+    'In true Mercedes-Benz fashion, the SLS is a pleaser that makes no compromises.\n' +
+    '\n' +
+    'Top up or top down, you\'re guaranteed to have a good time. Enjoy the wind in your hair or the ventilated seats, this Benz ticks all of the boxes.\n' +
+    '\n' +
+    'The 449hp V8 propels this machine from 0-60 in an exciting 4.5 seconds. Rent this car for the day, week or month and you will not be disappointed!',
     1
   ),
   new Car(
