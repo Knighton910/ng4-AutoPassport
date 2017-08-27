@@ -16,21 +16,64 @@ img.autoImg-D {
 
 .btn {
   border: none;
-  padding: 15px 15px;
+  padding: 19px 25px;
   color: #fff;
-  background-color: #00B5AD;
+  background-color: lawngreen;
   text-align: center;
   font-size: 17px;
+  margin-left: 52px;
+  margin-bottom: 20px;
 }
 
 #name {
   color: dodgerblue;
-  font-size: 40px;
-  font-family: 'Kaushan Script', sans-serif;
+  font-size: 34px;
+  font-family: Blacksword;
   text-align: center;
+  border-bottom: 5px groove lawngreen;
+  margin-right: 360px;
+  margin-left: 360px;
+  border-radius: 9px;
 }
 
 #info {
   color: #fff;
-  font-family: "Arial Black";
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-size: large;
+  padding: 10px 18px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.stats ul {
+  color: orange;
+  font-size: large;
+  font-family: "Avenir Next";
+  list-style: none;
+  margin-left: 25px;
+  font-weight: 400;
+}
+
+#spec {
+  color: #fff;
+  font-family: Arial;
+  margin-left: 2px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-right: 1070px;
+  margin-bottom: 16px;
+  padding-bottom: 1px;
+  padding-top: 2px;
+}
+
+h2 {
+  margin: -2px 0;
+}
+
+ul li {
+  border-bottom: 3px solid #fff;
+  margin-right: 1055px;
+  border-radius: 5px;
 }

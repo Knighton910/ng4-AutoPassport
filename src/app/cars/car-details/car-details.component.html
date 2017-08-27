@@ -1,14 +1,26 @@
-<div>
-  <div class="autoImg-wrapper">
-    <img class="autoImg-D" [src]="car?.imageUrl">
-  </div>
+<div class="autoImg-wrapper">
+  <img class="autoImg-D" [src]="car?.imageUrl">
+</div>
+
+<div id="description">
 
   <div id="name">
     <h2>{{car?.name}}</h2>
   </div>
-
   <div id="info">
     <p>{{car?.info}}</p>
   </div>
-  <button class="btn">Lease Me</button>
+
 </div>
+
+<div class="stats">
+  <ul>
+    <p id="spec">SPECIFICATIONS</p>
+    <li>{{car?.stat1}}</li>
+    <li>{{car?.stat2}}</li>
+    <li>{{car?.stat3}}</li>
+    <li>{{car?.stat4}}</li>
+  </ul>
+</div>
+
+<button class="btn">Lease Me</button>

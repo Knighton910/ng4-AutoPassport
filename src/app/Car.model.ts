@@ -10,6 +10,10 @@ export class Car {
     public topSpeed: string,
     public msrp: string,
     public info: string,
+    public stat1: string,
+    public stat2: string,
+    public stat3: string,
+    public stat4: string,
     public id: number
   ) {}
 }
