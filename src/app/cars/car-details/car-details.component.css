@@ -14,6 +14,13 @@ img.autoImg-D {
   background-color: lightslategray;
 }
 
+#spec {
+  color: #fff;
+  font-family: Arial;
+  margin-left: 2px;
+  font-weight: 800;
+}
+
 .btn {
   border: none;
   padding: 19px 25px;
@@ -21,8 +28,6 @@ img.autoImg-D {
   background-color: lawngreen;
   text-align: center;
   font-size: 17px;
-  margin-left: 52px;
-  margin-bottom: 20px;
 }
 
 #name {
@@ -30,50 +35,35 @@ img.autoImg-D {
   font-size: 34px;
   font-family: Blacksword;
   text-align: center;
-  border-bottom: 5px groove lawngreen;
-  margin-right: 360px;
-  margin-left: 360px;
-  border-radius: 9px;
 }
 
-#info {
-  color: #fff;
-  font-family: 'Encode Sans Condensed', sans-serif;
-  margin-right: 200px;
-  margin-left: 200px;
-  font-size: large;
-  padding: 10px 18px;
-  margin-bottom: 20px;
-  float: left;
-}
+/*div > #info {*/
+  /*color: #fff;*/
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  /*margin-right: 300px;*/
+  /*margin-left: 300px;*/
+  /*padding: 10px 18px;*/
+  /*margin-bottom: 20px;*/
+  /*float: right;*/
+  /*display: inline-block;*/
+/*}*/
 
-.stats ul {
+ul {
   color: orange;
   font-size: large;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", Arial;
+  display: inline;
+  float: left;
   list-style: none;
-  margin-left: 25px;
-  font-weight: 400;
+  margin-top: -20px;
+  margin-left: 100px;
 }
 
-#spec {
-  color: #fff;
-  font-family: Arial;
-  margin-left: 2px;
-  font-weight: 800;
-  border-radius: 5px;
-  margin-right: 1070px;
-  margin-bottom: 16px;
-  padding-bottom: 1px;
-  padding-top: 2px;
-}
-
-h2 {
-  margin: -2px 0;
-}
-
-ul li {
-  border-bottom: 3px solid #fff;
-  margin-right: 1055px;
-  border-radius: 5px;
+.Pp {
+  color: white;
+  padding-right: 350px;
+  padding-left: 350px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
 }

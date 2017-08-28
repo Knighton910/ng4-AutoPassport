@@ -20,8 +20,18 @@
 }
 
 .footy img {
-  height: 495px;
-  width: 670px;
-  margin-top: -340px;
-  margin-left: 280px;
+  height: 220px;
+  display: inline;
+  float: left;
+  background-color: orangered;
+}
+
+.footy {
+  background-color: orange;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  background-color: lawngreen;
 }
