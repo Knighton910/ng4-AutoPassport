@@ -1,4 +1,6 @@
-
+img {
+  height: 385px;
+}
 .q-intro, .q-intro1 {
   color: white;
   font-size: 22px;
@@ -7,31 +9,79 @@
   padding-left: 34px;
 }
 
-.home-cars {
-  margin-left: 40px;
+.cover-cars {
+  margin-left: 60px;
+  width: 280px;
 }
 
 .q-intro {
-  margin-bottom: 15px;
+  margin: 43px 75px 15px;
 }
 
 .q-intro1 {
-  margin-bottom: 20px;
+  margin: 43px 75px 40px;
 }
 
-.footy img {
-  height: 220px;
+h1 {
+  text-align: center;
+  color: red;
+  background-color: whitesmoke;
+  font-family: Blacksword;
+  font-size: 43px;
+  margin-bottom: 0;
+  margin-right: 65px;
+  margin-left: 61px;
+}
+
+.column img {
   display: inline;
   float: left;
-  background-color: orangered;
+  background-color: #595959;
+  height: 155px;
+  margin-bottom: 30px;
+}
+.column1 > img {
+  height: 160px;
+}
+.column2 > img {
+  height: 160px;
+}
+.column3 > img {
+  height: 160px;
+}
+.column1,.column2,.column3 {
+  float: left;
+}
+.column1 > h3,.column2 > h3,.column3 > h3 {
+  color: white;
+  font-size: 24px;
+  font-family: Avenir;
+  text-align: center;
 }
 
-.footy {
-  background-color: orange;
-  list-style: none;
+.column2, .column3 {
+  margin-left: 45px;
 }
 
-ul {
-  list-style: none;
-  background-color: lawngreen;
+.row {
+  float: left;
+  margin-left: 155px;
+  margin-bottom: 45px;
+}
+button {
+  display: block;
+}
+
+img.foot {
+  height: 90px;
+  margin-bottom: -5px;
+}
+
+button {
+  background-color: yellow;
+  font-size: 15px;
+  border: none;
+  text-decoration: none;
+  padding: 8px 22px;
+  color: black;
 }
