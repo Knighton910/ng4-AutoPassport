@@ -50,7 +50,7 @@ img.autoImg-D {
 
 ul {
   color: orange;
-  font-size: large;
+  font-size: 17px;
   font-family: "Avenir Next", Arial;
   display: inline;
   float: left;
@@ -66,4 +66,24 @@ ul {
   margin-left: 50px;
   padding-bottom: 50px;
   margin-bottom: 20px;
+  line-height: 22px;
+}
+
+li {
+  border-bottom: 2px solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#oneL {
+  margin-right: 55px;
+}
+#secondL {
+  margin-right: 15px;
+}
+#threeL {
+  margin-right: 26px;
+}
+#fourL {
+  margin-right: 18px;
 }
