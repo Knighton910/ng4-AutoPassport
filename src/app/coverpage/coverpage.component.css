@@ -25,7 +25,7 @@ img {
 h1 {
   text-align: center;
   color: red;
-  background-color: whitesmoke;
+  background-color: white;
   font-family: Blacksword;
   font-size: 43px;
   margin-bottom: 0;
@@ -65,7 +65,7 @@ h1 {
 
 .row {
   float: left;
-  margin-left: 155px;
+  margin-left: 187px;
   margin-bottom: 45px;
 }
 button {
@@ -77,11 +77,21 @@ img.foot {
   margin-bottom: -5px;
 }
 
+.column1 > a > button {
+  padding: 8px 62px;
+}
+.column2 > button {
+  padding: 8px 73px;
+}
+.column3 > button {
+   padding: 8px 55px;
+ }
+
 button {
   background-color: yellow;
   font-size: 15px;
   border: none;
-  text-decoration: none;
-  padding: 8px 22px;
   color: black;
+  margin-top: 10px;
+  border-radius: 20px;
 }
