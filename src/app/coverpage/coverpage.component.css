@@ -1,6 +1,7 @@
-img {
-  height: 385px;
+* {
+  box-sizing: border-box;
 }
+
 .q-intro, .q-intro1 {
   color: white;
   font-size: 22px;
@@ -22,16 +23,7 @@ img {
   margin: 43px 75px 40px;
 }
 
-h1 {
-  text-align: center;
-  color: red;
-  background-color: white;
-  font-family: Blacksword;
-  font-size: 43px;
-  margin-bottom: 0;
-  margin-right: 65px;
-  margin-left: 61px;
-}
+
 
 .column img {
   display: inline;
@@ -95,3 +87,105 @@ button {
   margin-top: 10px;
   border-radius: 20px;
 }
+
+a:link {
+  text-decoration: none;
+}
+button:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/*a:hover, a:visited, a:link, a:active*/
+/*{*/
+  /*text-decoration: none;*/
+/*}*/
+
+/* Media Queries -------------- */
+
+@media (max-width: 759px) {
+  .column2, .column3 {
+    margin-left: 0;
+  }
+}
+/*@media (max-width: 800px) {*/
+  /*!*.cover-cars {*!*/
+    /*!*margin-left: 5px;*!*/
+    /*!*width: 60px;*!*/
+  /*!*}*!*/
+  /*img {*/
+    /*height: 100px;*/
+  /*}*/
+/*}*/
+@media (max-width: 1220px) {
+  img {
+    height: 260px;
+  }
+  h1 {
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-family: Blacksword;
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-right: 30px;
+    margin-left: 31px;
+  }
+  h1.welcome {
+    margin-right: 197px;
+    margin-left: 145px;
+  }
+}
+@media (max-width: 1100px) {
+  img {
+    height: 200px;
+  }
+  h1 {
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-family: Blacksword;
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-right: 55px;
+    margin-left: 61px;
+  }
+}
+@media (min-width: 900px) {
+  h1.welcome {
+    margin-right: 157px;
+    margin-left: 145px;
+  }
+  .cover-cars {
+    margin-left: 145px;
+  }
+}
+@media (min-width: 1220px) {
+  h1 {
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-family: Blacksword;
+    font-size: 36px;
+    margin-bottom: 0;
+    padding: 8px 0;
+  }
+  h1.welcome {
+    margin-right: 40px;
+    margin-left: 39px;
+  }
+  .cover-cars {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 400px) {
+  img {
+    height: 100px;
+  }
+}
+
+/*@media (max-width: 1120px) {*/
+  /*img {*/
+    /*height: 375px;*/
+  /*}*/
+/*}*/

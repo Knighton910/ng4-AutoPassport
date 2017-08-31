@@ -21,15 +21,6 @@ img.autoImg-D {
   font-weight: 800;
 }
 
-.btn {
-  border: none;
-  padding: 19px 25px;
-  color: #fff;
-  background-color: lawngreen;
-  text-align: center;
-  font-size: 17px;
-}
-
 #name {
   color: dodgerblue;
   font-size: 34px;
@@ -61,12 +52,13 @@ ul {
 
 .Pp {
   color: white;
-  padding-right: 350px;
+  padding-right: 380px;
   padding-left: 350px;
   margin-left: 50px;
   padding-bottom: 50px;
   margin-bottom: 20px;
-  line-height: 22px;
+  line-height: 25px;
+  font-size: 17px;
 }
 
 li {
@@ -87,3 +79,25 @@ li {
 #fourL {
   margin-right: 18px;
 }
+
+.btn {
+  border: none;
+  padding: 19px 215px;
+  color: #fff;
+  background-color: #00b5ad;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 400px;
+  margin-top: -60px;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: tomato;
+}
+/*a:hover, a:visited, a:link, a:active*/
+/*{*/
+  /*text-decoration: none;*/
+/*}*/
+
