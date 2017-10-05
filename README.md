@@ -26,7 +26,7 @@ A Sample of Cars Details page | needs updating
 
 
 --------
-still in progress :construction: 
+still in progress :construction: Finished app, look much more better, will update photos soon.  
 
 Generated with AngularCLI :yellow_heart: version 1.0.1.
 
