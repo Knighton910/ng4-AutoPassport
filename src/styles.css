@@ -2,8 +2,48 @@
 
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body {
   background-color:#1d3144;
   margin: auto;
+  text-align: center;
 }
+
+img {
+  max-width: 100%;
+}
+
+/*header styles*/
+.header-content {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+app-car-thumbnail {
+  text-align: center;
+  background-color: greenyellow;
+}
+
+
+/*.displayFleet {*/
+  /*background-color: tomato;*/
+  /*padding-top: 5%;*/
+/*}*/
+
+/*div, app-cars {*/
+  /*margin-left: 5px;*/
+  /*text-align: center;*/
+  /*background-color: #ed1c24;*/
+/*}*/
+
+/*@media (min-width: 1281px) {*/
+  /*div, app-cars {*/
+    /*margin-left: 99px;*/
+  /*}*/
+/*}*/

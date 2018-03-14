@@ -1,4 +1,9 @@
 /*former class tet*/
+
+* {
+  box-sizing: border-box;
+}
+
 .autoImg {
   width: 600px;
   height: 425px;
@@ -12,19 +17,18 @@
   float: left;
   background-color: #262626;
   text-align: center;
-  margin-left: 26px;
+  margin-left: 16px;
   font-family: Nunito, sans-serif;
   margin-bottom: 18px;
 }
-
-.forefront li {
-  list-style: none;
-}
+/*.forefront:nth-child(1) {*/
+  /*background-color: #ed1c24;*/
+/*}*/
 
 .name {
   color: lawngreen;
   font-size: 40px;
-  font-family: 'Kaushan Script', Blacksword;
+  font-family: 'Kaushan Script', sans-serif;
   margin-bottom: -3px;
   margin-top: 5px;
 }
@@ -52,26 +56,3 @@ button {
 .price {
   font-size: large;
 }
-
-
-
-
-/*.autoImg { width: 600px; height: 425px;}*/
-
-/*.name {*/
-  /*color: orange;*/
-  /*font-size:30px;*/
-  /*font-family:'Kaushan Script', Helvetica;*/
-/*}*/
-
-/*.btn{*/
-  /*background-color: #4CAF50; !* Green *!*/
-  /*border: none;*/
-  /*color: white;*/
-  /*padding: 15px 150px;*/
-  /*text-align: center;*/
-  /*text-decoration: none;*/
-  /*display: inline-block;*/
-  /*font-size: 16px;*/
-  /*margin-bottom:20px;*/
-/*}*/

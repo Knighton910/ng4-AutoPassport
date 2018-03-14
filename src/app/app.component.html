@@ -1,18 +1,22 @@
-<img class="upTop" src="../assets/upTop.png"/>
-<img class="alogo" src="../assets/avalogo.png"/>
 
-<div class="makeshift-nav">
-  <button md-button [mdMenuTriggerFor]="appMenu">
-    <md-icon class="menu">menu</md-icon>
-    <span class="iMenu">Menu</span>
-  </button>
-</div>
 
-<md-menu #appMenu="mdMenu">
-  <a href="/cars"><button md-menu-item>Cars</button></a>
-  <a href="/cover"><button md-menu-item>Cover</button></a>
-  <a href="/lease"><button md-menu-item>Lease</button></a>
-</md-menu>
+<div class="header-content">
+  <img class="upTop" src="../assets/upTop.png"/>
+  <img class="alogo" src="../assets/avalogo.png"/>
+  <div class="makeshift-nav">
+    <button md-button [mdMenuTriggerFor]="appMenu">
+      <md-icon class="menu">menu</md-icon>
+      <span class="iMenu">Menu</span>
+    </button>
+  </div>
+
+
+  <md-menu #appMenu="mdMenu">
+    <a href="/cars"><button md-menu-item>Cars</button></a>
+    <a href="/cover"><button md-menu-item>Cover</button></a>
+    <a href="/lease"><button md-menu-item>Lease</button></a>
+  </md-menu>
+</div> <!-- End header-content -->
 
 <div>
   <router-outlet></router-outlet>

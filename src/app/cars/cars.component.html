@@ -1,14 +1,8 @@
-<div>
-  <div>
-    <div class="" *ngFor="let car of cars">
-      <app-car-thumbnail [car]="car"></app-car-thumbnail>
-    </div>
-  </div>
+<div class="displayFleet">
+<div *ngFor="let car of cars; let one = one; let two = two; let three = three; let four = four" [class.first-item]="one" [class.second-item]="two" [class.third-item]="three" [class.fourth-item]="four">
+  <app-car-thumbnail [car]="car"></app-car-thumbnail>
 </div>
-
-
-
-
+</div>
 
 
 

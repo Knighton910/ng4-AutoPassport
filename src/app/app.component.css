@@ -1,24 +1,36 @@
-
-.home-cars > img {
-  width: 1200px;
-  height: 400px;
-  padding-right: 20px;
-  padding-left: 30px;
-  background-color: #fff;
-  margin:  0 auto;
-  display: block;
-  border: 5px white solid;
+* {
+  box-sizing: border-box;
 }
 
+/*.home-cars > img {*/
+  /*width: 1200px;*/
+  /*height: 400px;*/
+  /*padding-right: 20px;*/
+  /*padding-left: 30px;*/
+  /*background-color: red;*/
+  /*margin:  0 auto;*/
+  /*display: block;*/
+  /*border: 5px white solid;*/
+/*}*/
+
 .upTop {
-  margin-bottom: -670px;
+  background-color: #ed1c24;
+  color: greenyellow;
+}
+
+img.alogo {
+  text-align: center;
 }
 
 .alogo {
   height: 140px;
   width: 200px;
-  margin-left: 520px;
-  margin-bottom: -25px;
+  display: block;
+  margin: auto;
+  /*align-content: center;*/
+  text-align: center;
+  /*margin-left: 520px;*/
+  /*margin-bottom: -25px;*/
 }
 
 .q-intro, .q-intro1 {
@@ -27,7 +39,7 @@
   text-align: center;
   margin-right: 60px;
   margin-left: 60px;
-  font-family: 'Pacifico', cursive;
+  /*font-family: 'Pacifico', cursive;*/
   font-family: 'Shadows Into Light', cursive;
 }
 
@@ -46,6 +58,6 @@
 }
 
 .iMenu {
-  font-family: "Trebuchet MS";
+  font-family: "Trebuchet MS", sans-serif;
   font-size: large;
 }
