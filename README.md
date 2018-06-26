@@ -26,7 +26,9 @@ A Sample of Cars Details page | needs updating
 
 
 --------
-still in progress :construction: Finished app, look much more better, will update photos soon.  
+Date: April 3 2018 - The app is malfuctioning, I will have it refactored soon (April 7): Saturday
+
+still in progress :construction: Finished app, looks better, will update photos soon.  
 
 Generated with AngularCLI :yellow_heart: version 1.0.1.
 
