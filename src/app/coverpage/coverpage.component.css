@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
+.secondary-content img {
+  border-radius: 12px;
+}
+
 .q-intro, .q-intro1 {
   color: white;
   font-size: 22px;
@@ -37,62 +45,32 @@ header {
   margin: 43px 75px 40px;
 }
 
-.column img {
-  background-color: #595959;
-}
-.column1 > img {
-  height: 160px;
-}
-.column2 > img {
-  height: 160px;
-}
-.column3 > img {
-  height: 160px;
-}
-.column1,.column2,.column3 {
-  float: left;
-}
-.column1 > h3,.column2 > h3,.column3 > h3 {
+/*.column1 > img {*/
+  /*height: 160px;*/
+/*}*/
+/*.column2 > img {*/
+  /*height: 160px;*/
+/*}*/
+/*.column3 > img {*/
+  /*height: 160px;*/
+/*}*/
+
+.column1 > h3,
+.column2 > h3,
+.column3 > h3 {
   color: white;
   font-size: 24px;
   font-family: Avenir, sans-serif;
   text-align: center;
 }
 
-.column2, .column3 {
-  margin-left: 45px;
-}
+/* Button Styles --------------*/
 
-.row {
-  float: left;
-  margin-left: 187px;
-  margin-bottom: 45px;
-}
 button {
   display: block;
 }
 
-img.foot {
-  height: 90px;
-  margin-bottom: -5px;
-}
-
-.column1 > a > button {
-  padding: 8px 62px;
-}
-.column2 > button {
-  padding: 8px 73px;
-}
-.column3 > button {
-   padding: 8px 55px;
- }
-
 button {
-  background-color: yellow;
-  font-size: 15px;
-  border: none;
-  color: black;
-  margin-top: 10px;
   border-radius: 20px;
 }
 
@@ -104,10 +82,55 @@ button:hover {
   color: white;
 }
 
-/*a:hover, a:visited, a:link, a:active*/
-/*{*/
-  /*text-decoration: none;*/
+/*.column1 > a > button {*/
+/*padding: 8px 62px;*/
 /*}*/
+/*.column2 > button {*/
+/*padding: 8px 53px;*/
+/*}*/
+/*.column3 > button {*/
+/*padding: 8px 55px;*/
+/*}*/
+
+/* Layout Styles ---------------------- */
+
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+/* Floated Columns -------------------- */
+
+.column1,
+.column2,
+.column3 {
+  width: 29.5%;
+}
+
+.column1 {
+  float: left;
+  margin-left: -15px;
+}
+
+.column2 {
+  float: right;
+}
+
+.column3 {
+  float: right;
+  margin-right: 48px;
+}
+
+/* Float Clearfix ------------------*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /* Media Queries -------------- */
@@ -116,13 +139,20 @@ button:hover {
     h1.welcome {
       width: 1200px;
       margin: auto;
-/*  
+/*
       margin-left: 162px;
       margin-right: 162px;
 */
   }
 }
 
+@media only screen and (min-width: 700px) {
+  img.foot {
+    height: 190px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+  }
+}
 
 /*@media (max-width: 800px) --[previously commented out] {*/
   /*!*.cover-cars {*!*/
@@ -229,4 +259,9 @@ button:hover {
   /*img {*/
     /*height: 375px;*/
   /*}*/
+/*}*/
+
+/*a:hover, a:visited, a:link, a:active*/
+/*{*/
+/*text-decoration: none;*/
 /*}*/

@@ -5,12 +5,12 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
-  MdButtonModule,
-  MdCardModule,
-  MdMenuModule,
-  MdToolbarModule,
-  MdIconModule,
-  MdInputModule,
+  MatButtonModule,
+  MatCardModule,
+  MatMenuModule,
+  MatToolbarModule,
+  MatIconModule,
+  MatInputModule,
 } from '@angular/material';
 import {
   RouterModule,
@@ -50,12 +50,12 @@ import { CarDetailsComponent } from './cars/car-details/car-details.component';
       // { path: 'cars/:id', component: CarDetailsComponent }
     ]),
     BrowserAnimationsModule,
-    MdButtonModule,
-    MdMenuModule,
-    MdCardModule,
-    MdToolbarModule,
-    MdIconModule,
-    MdInputModule
+    MatButtonModule,
+    MatMenuModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatInputModule
   ],
   bootstrap: [AppComponent]
 })

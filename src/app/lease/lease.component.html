@@ -1,39 +1,39 @@
 <div class="form-wrapper">
   <form class="Iform">
-    <md-input-container class="example-full-width">
-      <input mdInput placeholder="Company (optional)">
-    </md-input-container>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Company (optional)">
+    </mat-form-field>
 
     <table class="example-full-width" cellspacing="0"><tr>
-      <td><md-input-container class="example-full-width">
-        <input mdInput placeholder="First name">
-      </md-input-container></td>
-      <td><md-input-container class="example-full-width">
-        <input mdInput placeholder="Last Name">
-      </md-input-container></td>
+      <td><mat-form-field class="example-full-width">
+        <input matInput placeholder="First name">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <input matInput placeholder="Last Name">
+      </mat-form-field></td>
     </tr></table>
 
     <p>
-      <md-input-container class="example-full-width">
-        <textarea mdInput placeholder="Address">1600 Amphitheatre Pkwy</textarea>
-      </md-input-container>
-      <md-input-container class="example-full-width">
-        <textarea mdInput placeholder="Address 2"></textarea>
-      </md-input-container>
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="Address"></textarea>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="Address 2"></textarea>
+      </mat-form-field>
     </p>
 
     <table class="example-full-width" cellspacing="0"><tr>
-      <td><md-input-container class="example-full-width">
-        <input mdInput placeholder="City">
-      </md-input-container></td>
-      <td><md-input-container class="example-full-width">
-        <input mdInput placeholder="State">
-      </md-input-container></td>
-      <td><md-input-container class="example-full-width">
-        <input mdInput #postalCode maxlength="5" placeholder="Postal Code" value="94043">
-        <md-hint align="end">{{postalCode.value.length}} / 5</md-hint>
-      </md-input-container></td>
+      <td><mat-form-field class="example-full-width">
+        <input matInput placeholder="City">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <input matInput placeholder="State">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <input matInput #postalCode maxlength="5" placeholder="Postal Code">
+        <!--<mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>-->
+      </mat-form-field></td>
     </tr></table>
-    <button md-raised-button>Submit</button>
+    <button mat-raised-button color="warn" id="btnS">Submit</button>
   </form>
 </div>

@@ -4,18 +4,18 @@
   <img class="upTop" src="../assets/upTop.png"/>
   <img class="alogo" src="../assets/avalogo.png"/>
   <div class="makeshift-nav">
-    <button md-button [mdMenuTriggerFor]="appMenu">
-      <md-icon class="menu">menu</md-icon>
+    <button mat-button [matMenuTriggerFor]="appMenu">
+      <mat-icon class="menu">menu</mat-icon>
       <span class="iMenu">Menu</span>
     </button>
   </div>
 
 
-  <md-menu #appMenu="mdMenu">
-    <a href="/cars"><button md-menu-item>Cars</button></a>
-    <a href="/cover"><button md-menu-item>Cover</button></a>
-    <a href="/lease"><button md-menu-item>Lease</button></a>
-  </md-menu>
+  <mat-menu #appMenu="matMenu">
+    <a href="/cars"><button mat-menu-item>Cars</button></a>
+    <a href="/cover"><button mat-menu-item>Cover</button></a>
+    <a href="/lease"><button mat-menu-item>Lease</button></a>
+  </mat-menu>
 </div> <!-- End header-content -->
 
 <div>
